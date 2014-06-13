@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dada Soft Lab Sessions</title>
+        <meta name="description" content="Software dadaism sessions to comment on internet absurdism">
+        <meta name="keywords" content="software, dadaism, internet, absurdism">
+        <meta name="author" content="Soft Ahab">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+        
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <!-- Static navbar -->
+        <div class="navbar navbar-default" role="navigation">
+          <div class="container">
+            <a class="navbar-brand" href="#/lyk">DaDa Soft Lab</a>
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">sessions <b class="caret"></b></a>
+                <ul class="dropdown-menu sessions-menu">
+                  <li><a class="menu-lyk" href="#/lyk">[20/06/14] link your knowledge</a></li>
+                  <li><a class="menu-gaa" href="#/gaa">[13/06/14] get an answer</a></li>
+                  <li><a class="menu-tuwyr" href="#/tuwyr">[06/06/14] tell us who you are</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="sandbox-header"></p>
+          <div class="sandbox"></div>
+        </div>
+
+        <footer class="footer">
+          <p class="text-center contact"><a href="mailto:obama@whitehouse.gov">mailto</a></p>
+        </footer>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/vendor.js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/backbone/backbone.js"></script>
+        <script src="bower_components/backbone.localStorage/backbone.localStorage.js"></script>
+        <script src="scripts/vendor/wikiquotes-api.js"></script>
+        <script src="bower_components/underscore.string/dist/underscore.string.min.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script src="scripts/templates.js"></script>
+        <script src="scripts/routes/sessions.js"></script>
+        <script src="scripts/models/session.js"></script>
+        <script src="scripts/collections/sessions.js"></script>
+        <script src="scripts/models/tuwyr.js"></script>
+        <script src="scripts/views/tuwyr.js"></script>
+        <script src="scripts/models/gaa.js"></script>
+        <script src="scripts/views/gaa.js"></script>
+        <script src="scripts/models/lyk.js"></script>
+        <script src="scripts/views/lyk.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

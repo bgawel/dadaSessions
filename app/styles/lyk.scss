@@ -1,0 +1,10 @@
+.sandbox-lyk {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    a.infinite-link {
+      &:hover, &:focus {
+        cursor: pointer;
+      }
+    }
+}
