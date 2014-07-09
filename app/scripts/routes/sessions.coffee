@@ -6,11 +6,15 @@ class DadaSession.Routers.Sessions extends Backbone.Router
     $('.sessions-menu li a')[0].click()
 
   routes: {
+    'ban' : 'ban'
     'lyk' : 'lyk'
     'gaa' : 'gaa'
     'tuwyr': 'tuwyr'
   }
-  
+
+  ban: () ->
+    @loadView(new DadaSession.Views.Ban(model: new DadaSession.Models.Ban()))
+    
   lyk: () ->
     @loadView(new DadaSession.Views.Lyk(model: new DadaSession.Models.Lyk({start: 1, stop: 504})))
     
